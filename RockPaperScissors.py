@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 import time
 
@@ -17,6 +19,9 @@ def winOrLose(playerChoice, compChoice):
 
 def game():
     playerChoice = input("Pick between rock, paper or scissors: ")
+    #Added error checking for this portion to make sure user enters right option
+    while playerChoice not in objects:
+        playerChoice = input("Invalid option. Pick between rock, paper or scissors: ")
     print("You picked: " + playerChoice)
     time.sleep(0.5)
     print(waitStr)
@@ -27,6 +32,15 @@ def game():
     compChoice = random.choice(objects)
     print("The computer picked: " + compChoice)
     winOrLose(playerChoice, compChoice)
+
+    #Added prompt to ask user if they wish to play again
+    promptKeepPlaying = input("Want to keep playing? (yes/no): ")
+    while promptKeepPlaying != "yes" and promptKeepPlaying != "no":
+        promptKeepPlaying = input("Invalid option. Want to keep playing? (yes/no): ")
+    if promptKeepPlaying == "yes":
+        game()
+    else:
+        quit()
 
 if __name__ == "__main__":
     game()
