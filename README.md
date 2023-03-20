@@ -19,7 +19,7 @@ Our iteration of Rock, Paper, Scissors works by prompting the user to select eit
 
 ## Game Flowchart 
 
-<img src="./pictures/flowchart.jpg"
+<img src="./flowchart.jpg"
 alt="Flowchart"
 style = "float: centre; margin-right: 10px;" />
 
