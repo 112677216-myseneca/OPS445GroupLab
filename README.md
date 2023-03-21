@@ -37,7 +37,7 @@ After creating the first iteration of the script, we found several issues in our
 
 ## Iteration 2
 
-For the second iteration, we corrected the errors found above. During QA testing we found:
+For the second iteration, we corrected the errors found above. During QA testing we made the following changes:
 
 - Shebang line added.
 - Added an error check to make sure the user inputs the correct choice at the beginning, and provided a message of options to choose from. 
