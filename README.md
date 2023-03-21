@@ -45,4 +45,4 @@ For the second iteration, we corrected the errors found above. During QA testing
 
 ## Closing Remarks
 
-After this iteration, we deemed the game complete and pushed the iteration 2 branch to the main branch for release. 
+After this iteration, we concluded all issues were resolved and the game is complete. We have pushed the iteration 2 branch to the main branch for release. 
