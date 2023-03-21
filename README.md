@@ -19,8 +19,17 @@ Our iteration of Rock, Paper, Scissors works by prompting the user to select eit
 
 ## Game Flowchart 
 
+This is our flowchart of how the script functions, and the processes it will take throughout it running.
+
 <img src="./images/flowchart.jpg"
 alt="Flowchart"
 style = "float: centre; margin-right: 10px;" />
 
 
+## Iteration 1 
+
+This is our first iteration of the script.
+
+<img src="./images/iteration1.jpg"
+alt="First Iteration"
+style = "float: centre; margin-right: 10px;" />
