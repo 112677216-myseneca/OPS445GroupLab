@@ -43,4 +43,6 @@ For the second iteration, we corrected the errors found above. During QA testing
 - Added an error check to make sure the user inputs the correct choice at the beginning, and provided a message of options to choose from. 
 - Game can now successfully complete and prompt user if they would like to play again. 
 
+## Closing Remarks
+
 After this iteration, we deemed the game complete and pushed the iteration 2 branch to the main branch for release. 
