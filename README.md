@@ -24,3 +24,12 @@ This is our flowchart of how the script functions, and the processes it will tak
 <img src="./images/flowchart.jpg"
 alt="Flowchart"
 style = "float: centre; margin-right: 10px;" />
+
+
+## Iteration 1 
+
+This is our first iteration of the script.
+
+<img src="./images/iteration1.jpg"
+alt="First Iteration"
+style = "float: centre; margin-right: 10px;" />
